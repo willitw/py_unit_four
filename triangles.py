@@ -1,12 +1,22 @@
-def is_triangle(side1, side2, side3):
-    pass
+import random
 
-
+def is_triangle(a, b, c):
+    if a + b > c and a + c > b and b + c > a:
+        return True
+    else:
+        return False
 
 def main():
-    pass
+    a = random.randint(1, 10)  
+    b = random.randint(1, 10)
+    c = random.randint(1, 10)
 
+    print(f"{a} {b} {c}")
 
-if __name__ == '__main__':
+    if is_triangle(a, b, c):
+        print("This can make a triangle!!!!")
+    else:
+        print("These lengths cannot form a triangle")
+
+if __name__ == "__main__":
     main()
-
