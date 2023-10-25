@@ -1,4 +1,4 @@
-# twig williams
+# Twig williams
 # starts a rps game with user
 import random
 

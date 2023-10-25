@@ -1,3 +1,6 @@
+#twig willaims
+# randomly picks three numbers from 1-10 and sees if they can make a triangle
+
 import random
 
 def is_triangle(a, b, c):
